@@ -1,0 +1,112 @@
+.container{
+    /* border: 1px solid black; */
+    border-bottom:10px solid rgba(137, 43, 226, 0.623) ;
+    border-right:6px solid rgba(132, 0, 255, 0.397) ;
+    border-left: 10px solid  rgba(222, 184, 135, 0.219);
+    border-top: 10px solid  rgba(222, 184, 135, 0.219);
+    height: 750px;
+    width: 500px;
+    margin:auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.box1{
+    /* padding-left: 35px;
+    padding-right: 35px; */
+    padding-top: 20px;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 220px;
+    height: 70px;
+    border: 1px solid plum;
+}
+
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 220px;
+    height: 70px;
+    background-color: rgba(0, 0, 255, 0.103);
+    border: 2px solid blue;
+}
+
+form{
+    display: flex;
+    /* padding: 35px; */
+    margin: 5px;
+    flex-direction: column;
+}
+
+button img{
+    height: 30px;
+    width: 30px;
+}
+
+.box2 img{
+    height: 50px;
+    /* width: 8s0px; */
+}
+
+button{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 70px;
+    color: azure;
+    font-size: 25px;
+    padding: 5px;
+}
+
+input{
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+button img{
+    padding-left: 15px;
+}
+
+.gray{
+   color:blueviolet;
+}
+
+
+
+.inputwithimg input[type=text]{
+    padding-left: 60px;
+    max-width: 100%;
+    width: 85%;
+}
+
+.inputwithimg{
+    position: relative;
+}
+.inputwithimg img{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    left: 0;
+    top: 20px;
+    padding: 9px 8px;
+}
